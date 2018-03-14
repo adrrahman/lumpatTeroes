@@ -3,7 +3,10 @@ guid: 137d0dbe8c6bb42619a285a49b1f819c
 timeCreated: 1521012989
 licenseType: Free
 TextureImporter:
-  fileIDToRecycleName: {}
+  fileIDToRecycleName:
+    21300000: rock
+    21300002: atlas-bridge
+    21300004: atlas-box
   externalObjects: {}
   serializedVersion: 4
   mipmaps:
@@ -88,7 +91,49 @@ TextureImporter:
     androidETC2FallbackOverride: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: rock
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 300
+        width: 24
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: atlas-bridge
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 300
+        width: 28
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: atlas-box
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 209
+        width: 31
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
     outline: []
     physicsShape: []
   spritePackingTag: 
