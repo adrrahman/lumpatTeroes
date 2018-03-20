@@ -13,7 +13,7 @@ public class PlayerController : MonoBehaviour {
 	private bool grounded;
 
 	private bool doubleJumped;
-
+	private bool isOnPlatform;
 	private Animator anim;
 	// Use this for initialization
 	void Start () {
@@ -47,5 +47,19 @@ public class PlayerController : MonoBehaviour {
 		}
 
 //		anim.SetFloat ("Speed", Mathf.Abs(GetComponent<Rigidbody2D> ().velocity.x));
+	}
+
+	void OnCollisionEnter2D(Collision2D thing) {
+		isOnPlatform = (thing.transform.tag == "MovingPlatform");
+		Debug.Log (thing.transform.tag);
+		if (thing.transform.tag == "MovingPlatform") {
+			transform.parent = thing.transform;
+		}
+	}
+
+	void OnCollisionExit2D(Collision2D thing) {
+		if (thing.transform.tag == "MovingPlatform") {
+			transform.parent = null;
+		}
 	}
 }
