@@ -127,7 +127,8 @@ GameObject:
   m_Component:
   - component: {fileID: 87356968}
   - component: {fileID: 87356969}
-  m_Layer: 0
+  - component: {fileID: 87356970}
+  m_Layer: 8
   m_Name: atlas-box
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -191,6 +192,31 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
+--- !u!61 &87356970
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 87356967}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 1.9375, y: 1.8750001}
+    newSize: {x: 1.9375, y: 1.8750001}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 1.9375, y: 1.8750001}
+  m_EdgeRadius: 0
 --- !u!1 &99780043
 GameObject:
   m_ObjectHideFlags: 0
@@ -200,7 +226,8 @@ GameObject:
   m_Component:
   - component: {fileID: 99780044}
   - component: {fileID: 99780045}
-  m_Layer: 0
+  - component: {fileID: 99780046}
+  m_Layer: 8
   m_Name: jungle base_box (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -264,6 +291,31 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
+--- !u!61 &99780046
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 99780043}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 2.75, y: 2.4999998}
+    newSize: {x: 2.75, y: 2.4999998}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 2.75, y: 2.4999998}
+  m_EdgeRadius: 0
 --- !u!1 &107459623
 GameObject:
   m_ObjectHideFlags: 0
@@ -273,7 +325,8 @@ GameObject:
   m_Component:
   - component: {fileID: 107459624}
   - component: {fileID: 107459625}
-  m_Layer: 0
+  - component: {fileID: 107459626}
+  m_Layer: 8
   m_Name: atlas-box (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -337,6 +390,31 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
+--- !u!61 &107459626
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 107459623}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 1.9375, y: 1.8750001}
+    newSize: {x: 1.9375, y: 1.8750001}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 1.9375, y: 1.8750001}
+  m_EdgeRadius: 0
 --- !u!1 &172568115
 GameObject:
   m_ObjectHideFlags: 0
@@ -346,7 +424,8 @@ GameObject:
   m_Component:
   - component: {fileID: 172568116}
   - component: {fileID: 172568117}
-  m_Layer: 0
+  - component: {fileID: 172568118}
+  m_Layer: 8
   m_Name: jungle base_box (6)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -410,6 +489,31 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
+--- !u!61 &172568118
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 172568115}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 2.75, y: 2.4999998}
+    newSize: {x: 2.75, y: 2.4999998}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 2.75, y: 2.4999998}
+  m_EdgeRadius: 0
 --- !u!4 &258726355 stripped
 Transform:
   m_PrefabParentObject: {fileID: 4559125826858028, guid: 578d463fc75be45989f99cd33307d03e,
@@ -424,7 +528,8 @@ GameObject:
   m_Component:
   - component: {fileID: 281174623}
   - component: {fileID: 281174624}
-  m_Layer: 0
+  - component: {fileID: 281174625}
+  m_Layer: 8
   m_Name: atlas-bridge
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -488,6 +593,31 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
+--- !u!61 &281174625
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 281174622}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 1.75, y: 0.81249994}
+    newSize: {x: 1.75, y: 0.81249994}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 1.75, y: 0.81249994}
+  m_EdgeRadius: 0
 --- !u!1 &305434435
 GameObject:
   m_ObjectHideFlags: 0
@@ -497,7 +627,8 @@ GameObject:
   m_Component:
   - component: {fileID: 305434436}
   - component: {fileID: 305434437}
-  m_Layer: 0
+  - component: {fileID: 305434438}
+  m_Layer: 8
   m_Name: jungle base_box (8)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -561,6 +692,31 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
+--- !u!61 &305434438
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 305434435}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 2.75, y: 2.4999998}
+    newSize: {x: 2.75, y: 2.4999998}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 2.75, y: 2.4999998}
+  m_EdgeRadius: 0
 --- !u!1 &306262910
 GameObject:
   m_ObjectHideFlags: 0
@@ -601,7 +757,8 @@ GameObject:
   m_Component:
   - component: {fileID: 347223320}
   - component: {fileID: 347223321}
-  m_Layer: 0
+  - component: {fileID: 347223322}
+  m_Layer: 8
   m_Name: jungle base_box (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -665,6 +822,31 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
+--- !u!61 &347223322
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 347223319}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 2.75, y: 2.4999998}
+    newSize: {x: 2.75, y: 2.4999998}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 2.75, y: 2.4999998}
+  m_EdgeRadius: 0
 --- !u!4 &391581423 stripped
 Transform:
   m_PrefabParentObject: {fileID: 4559125826858028, guid: 578d463fc75be45989f99cd33307d03e,
@@ -752,6 +934,7 @@ GameObject:
   m_Component:
   - component: {fileID: 500129113}
   - component: {fileID: 500129114}
+  - component: {fileID: 500129115}
   m_Layer: 0
   m_Name: rock (2)
   m_TagString: Untagged
@@ -816,6 +999,31 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
+--- !u!61 &500129115
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 500129112}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 1.5, y: 0.875}
+    newSize: {x: 1.5, y: 0.875}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 1.5, y: 0.875}
+  m_EdgeRadius: 0.05
 --- !u!1 &576606380
 GameObject:
   m_ObjectHideFlags: 0
@@ -892,6 +1100,7 @@ GameObject:
   m_Component:
   - component: {fileID: 640811830}
   - component: {fileID: 640811831}
+  - component: {fileID: 640811832}
   m_Layer: 0
   m_Name: rock (3)
   m_TagString: Untagged
@@ -956,6 +1165,31 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
+--- !u!61 &640811832
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 640811829}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 1.5, y: 0.875}
+    newSize: {x: 1.5, y: 0.875}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 1.5, y: 0.875}
+  m_EdgeRadius: 0.05
 --- !u!1 &648210672
 GameObject:
   m_ObjectHideFlags: 0
@@ -993,7 +1227,8 @@ GameObject:
   m_Component:
   - component: {fileID: 669632121}
   - component: {fileID: 669632122}
-  m_Layer: 0
+  - component: {fileID: 669632123}
+  m_Layer: 8
   m_Name: jungle base_box
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1057,6 +1292,31 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
+--- !u!61 &669632123
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 669632120}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 2.75, y: 2.4999998}
+    newSize: {x: 2.75, y: 2.4999998}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 2.75, y: 2.4999998}
+  m_EdgeRadius: 0
 --- !u!4 &698376136 stripped
 Transform:
   m_PrefabParentObject: {fileID: 4559125826858028, guid: 578d463fc75be45989f99cd33307d03e,
@@ -1320,6 +1580,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1063781641}
   - component: {fileID: 1063781642}
+  - component: {fileID: 1063781643}
   m_Layer: 0
   m_Name: rock (1)
   m_TagString: Untagged
@@ -1384,6 +1645,31 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
+--- !u!61 &1063781643
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1063781640}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 1.5, y: 0.875}
+    newSize: {x: 1.5, y: 0.875}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 1.5, y: 0.875}
+  m_EdgeRadius: 0.05
 --- !u!1 &1081612650
 GameObject:
   m_ObjectHideFlags: 0
@@ -1685,6 +1971,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1157457972}
   - component: {fileID: 1157457971}
+  - component: {fileID: 1157457973}
   m_Layer: 0
   m_Name: rock
   m_TagString: Untagged
@@ -1749,6 +2036,31 @@ Transform:
   m_Father: {fileID: 606669657}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!61 &1157457973
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1157457970}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 1.5, y: 0.875}
+    newSize: {x: 1.5, y: 0.875}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 1.5, y: 0.875}
+  m_EdgeRadius: 0.05
 --- !u!1001 &1162976893
 Prefab:
   m_ObjectHideFlags: 0
@@ -1928,7 +2240,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1353597688}
   - component: {fileID: 1353597689}
-  m_Layer: 0
+  - component: {fileID: 1353597690}
+  m_Layer: 8
   m_Name: jungle base_box (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1992,6 +2305,31 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
+--- !u!61 &1353597690
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1353597687}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 2.75, y: 2.4999998}
+    newSize: {x: 2.75, y: 2.4999998}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 2.75, y: 2.4999998}
+  m_EdgeRadius: 0
 --- !u!1 &1356396360
 GameObject:
   m_ObjectHideFlags: 0
@@ -2214,7 +2552,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1458328935}
   - component: {fileID: 1458328936}
-  m_Layer: 0
+  - component: {fileID: 1458328937}
+  m_Layer: 8
   m_Name: atlas-box (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2278,6 +2617,31 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
+--- !u!61 &1458328937
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1458328934}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 1.9375, y: 1.8750001}
+    newSize: {x: 1.9375, y: 1.8750001}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 1.9375, y: 1.8750001}
+  m_EdgeRadius: 0
 --- !u!1 &1461816307
 GameObject:
   m_ObjectHideFlags: 0
@@ -2319,7 +2683,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1472833797}
   - component: {fileID: 1472833798}
-  m_Layer: 0
+  - component: {fileID: 1472833799}
+  m_Layer: 8
   m_Name: jungle base_box (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2383,6 +2748,31 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
+--- !u!61 &1472833799
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1472833796}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 2.75, y: 2.4999998}
+    newSize: {x: 2.75, y: 2.4999998}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 2.75, y: 2.4999998}
+  m_EdgeRadius: 0
 --- !u!1001 &1560082240
 Prefab:
   m_ObjectHideFlags: 0
@@ -2584,7 +2974,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1716951018}
   - component: {fileID: 1716951019}
-  m_Layer: 0
+  - component: {fileID: 1716951020}
+  m_Layer: 8
   m_Name: jungle base_box (5)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2648,6 +3039,59 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
+--- !u!61 &1716951020
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1716951017}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 2.75, y: 2.4999998}
+    newSize: {x: 2.75, y: 2.4999998}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 2.75, y: 2.4999998}
+  m_EdgeRadius: 0
+--- !u!1 &1774891246
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1774891247}
+  m_Layer: 0
+  m_Name: Checkpoint
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1774891247
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1774891246}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 49.41478, y: 0.68069696, z: -0.19899473}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 5
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &1941555734 stripped
 Transform:
   m_PrefabParentObject: {fileID: 4430095502376836, guid: 95d802c83e39c4e5d8b7423f22b06663,
@@ -2740,7 +3184,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1979069889}
   - component: {fileID: 1979069890}
-  m_Layer: 0
+  - component: {fileID: 1979069891}
+  m_Layer: 8
   m_Name: jungle base_box (7)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2804,3 +3249,28 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
+--- !u!61 &1979069891
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1979069888}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 2.75, y: 2.4999998}
+    newSize: {x: 2.75, y: 2.4999998}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 2.75, y: 2.4999998}
+  m_EdgeRadius: 0
