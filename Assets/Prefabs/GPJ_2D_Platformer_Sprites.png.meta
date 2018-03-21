@@ -9,6 +9,7 @@ TextureImporter:
     21300004: ground
     21300006: enemy
     21300008: ladder
+    21300010: coin
   externalObjects: {}
   serializedVersion: 4
   mipmaps:
@@ -158,6 +159,20 @@ TextureImporter:
         y: 80
         width: 14
         height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: coin
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 84
+        width: 7
+        height: 7
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
