@@ -18,7 +18,7 @@ public class FinishController : MonoBehaviour {
 	void OnTriggerEnter2D (Collider2D thing) {
 		string sceneName = scene.name;
 		Debug.Log (sceneName);
-
+		PlayerPrefs.SetFloat ("Scoretime",ScoreManager.scoreTime);
 		if (sceneName == "Scene1") {
 			Application.LoadLevel ("Scene2");
 		}

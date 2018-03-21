@@ -9,8 +9,8 @@ public class ScoreManager : MonoBehaviour {
 
 	void Start() {
 		text = GetComponent<Text> ();
-
-		scoreTime = 0;
+		scoreTime = PlayerPrefs.GetFloat("Scoretime");
+		// scoreTime = 0;
 	}
 
 	void Update() {
