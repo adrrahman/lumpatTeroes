@@ -7,6 +7,7 @@ TextureImporter:
     21300000: rock
     21300002: atlas-bridge
     21300004: atlas-box
+    21300006: finish_home
   externalObjects: {}
   serializedVersion: 4
   mipmaps:
@@ -128,6 +129,20 @@ TextureImporter:
         y: 209
         width: 31
         height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: finish_home
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 3
+        width: 87
+        height: 109
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
