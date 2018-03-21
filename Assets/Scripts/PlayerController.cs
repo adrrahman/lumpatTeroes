@@ -15,9 +15,20 @@ public class PlayerController : MonoBehaviour {
 	private bool doubleJumped;
 	private bool isOnPlatform;
 	private Animator anim;
+
+	private Rigidbody2D myrigidbody2D;
+
+	public bool onLadder;
+	public float climbSpeed;
+	private float climbVelocity;
+	private float gravityStore;
 	// Use this for initialization
 	void Start () {
 		anim = GetComponent<Animator> ();
+
+		myrigidbody2D = GetComponent<Rigidbody2D> ();
+
+		gravityStore = myrigidbody2D.gravityScale;
 	}
 
 	void FixedUpdate () {
@@ -46,6 +57,17 @@ public class PlayerController : MonoBehaviour {
 			GetComponent<Rigidbody2D> ().velocity = new Vector2 (-moveSpeed, GetComponent<Rigidbody2D> ().velocity.y);
 		}
 
+		if (onLadder) {
+			myrigidbody2D.gravityScale = 0f;
+
+			climbVelocity = climbSpeed * Input.GetAxisRaw ("Vertical");
+
+			myrigidbody2D.velocity = new Vector2 (GetComponent<Rigidbody2D> ().velocity.x, climbVelocity); 
+		}
+
+		if (!onLadder) {
+			myrigidbody2D.gravityScale = gravityStore;
+		}
 //		anim.SetFloat ("Speed", Mathf.Abs(GetComponent<Rigidbody2D> ().velocity.x));
 	}
 
