@@ -8,6 +8,7 @@ TextureImporter:
     21300002: GPJ_2D_Platformer_Sprites_0
     21300004: ground
     21300006: enemy
+    21300008: ladder
   externalObjects: {}
   serializedVersion: 4
   mipmaps:
@@ -143,6 +144,20 @@ TextureImporter:
         y: 112
         width: 16
         height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ladder
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 80
+        width: 14
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
