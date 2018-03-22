@@ -21,6 +21,8 @@ public class FinishController : MonoBehaviour {
 		PlayerPrefs.SetFloat ("Scoretime",ScoreManager.scoreTime);
 		if (sceneName == "Scene1") {
 			Application.LoadLevel ("Scene2");
+		}else if (sceneName == "Scene2") {
+			Application.LoadLevel ("Scene3");
 		}
 	}
 }
