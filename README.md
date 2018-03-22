@@ -21,8 +21,8 @@ $ git clone {this repository}
 
 |Deliverables |Letak Deliverables                          |
 |----------------|-------------------------------|
+|Readme|Ini|
 |Kode Program|[Gitlab](http://gitlab.informatika.org/IF3111-2018-09) |
 |Proposal |[Google Drive](https://docs.google.com/document/d/1DHAaeeLWqiNxhiDcnHKmgPSxAclR7Zza_MW7kxRDk-w/edit)|
 |Laporan|[Google Docs](https://docs.google.com/document/d/1qNmfPrG_E20kdNYv0NoN7jGSEnPRPyNv-0xSpkGuGyY/edit)|
-|Readme|Ini|
-|Video Demo|TBD|
+|Video Demo|Youtube (https://bit.ly/videolumpatteroes)|
